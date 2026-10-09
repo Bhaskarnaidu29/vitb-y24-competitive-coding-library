@@ -25,17 +25,6 @@ class BitManipulation {
         }
         return false;
     }
-<<<<<<< HEAD
-    public static int countSetBits(long n) {
-    // return the number of bits set to 1 in n (n >= 0)
-    int count = 0;
-    while (n > 0) {
-        n=(n & (n - 1)); // clear the least significant bit set
-        count++;    
-}
-    return count;
-}
-=======
 
     public long countSetBits(long n) {
         int count=0;
@@ -45,5 +34,4 @@ class BitManipulation {
         }
         return count;
     }
->>>>>>> 656c98ca8626ca3c3eaf8ec57582828edd800372
 }
